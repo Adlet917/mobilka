@@ -1,4 +1,4 @@
-import { Service } from '../types/Service';
+import { Service } from '../src/types/Service';
 
 export const services: Service[] = [
   { id: '1', icon: '📖', title: 'Кітапхана', description: 'Кітаптар мен мақалаларды іздеу', color: '#E8F1FF' },

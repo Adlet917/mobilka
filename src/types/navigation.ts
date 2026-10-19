@@ -5,11 +5,15 @@ export type RootStackParamList = {
     serviceId: string;
     title: string;
   };
+  NewsDetails: {
+    announcementId: number;
+  };
 };
 
 export type MainTabParamList = {
   Home: undefined;
   Services: undefined;
+  News: undefined; // <-- Новый экран новостей с API
   Profile: undefined;
-  Settings: undefined; 
+  Settings: undefined;
 };

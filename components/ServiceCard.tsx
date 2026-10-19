@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { Service } from '../types/Service';
+import { Service } from '../src/types/Service';
 
 type CardProps = {
   service: Service;

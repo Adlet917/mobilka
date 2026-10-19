@@ -5,6 +5,7 @@ import { LoginScreen } from '../screens/LoginScreen';
 import { DetailsScreen } from '../screens/DetailsScreen';
 import { MainTabs } from './MainTabs';
 import { useSettings } from '../context/SettingsContext';
+import { NewsDetailsScreen } from '../screens/NewsDetailsScreen';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
@@ -21,6 +22,7 @@ export function RootNavigator() {
     >
       <Stack.Screen name="Login" component={LoginScreen} options={{ headerShown: false }} />
       <Stack.Screen name="Main" component={MainTabs} options={{ headerShown: false }} />
+      <Stack.Screen name="NewsDetails" component={NewsDetailsScreen} options={{ title: 'Толық мәлімет' }} />
       <Stack.Screen 
         name="Details" 
         component={DetailsScreen} 
